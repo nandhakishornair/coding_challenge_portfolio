@@ -1,0 +1,39 @@
+
+
+
+.wri{
+    padding: 5%;
+    /* box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075); */
+    height: 100%;
+    margin-top: 10%;
+}
+.ser{
+    margin-top: 8%;
+    text-align: center;
+    color: rgb(227, 96, 96);
+    margin-bottom: -5%;
+    
+}
+.row{
+    margin-right:10%;
+    margin-left:10%;
+    padding-left: 5%;
+    max-width: 70%;
+}
+
+.fa{
+    color: blue;
+  
+}
+/* ddddd */
+.hm-gradient {
+   background-color: rgb(193, 223, 246);
+}
+.box{
+    margin-top: 20%;
+}
+.ss{
+    color: brown;
+   
+}
+

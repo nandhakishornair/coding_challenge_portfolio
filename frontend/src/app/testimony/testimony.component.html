@@ -1,0 +1,53 @@
+<div class="testi">
+<h2 data-aos="zoom-in-up"id="testi">Testimonials</h2>
+<!-- <div>Some tags before</div> -->
+</div>
+<div id="testimonial" class="team-boxed">
+  
+  <div class="container">
+<owl-carousel-o [options]="customOptions">
+   <ng-template carouselSlide *ngFor="let it of testimonials;" >
+    <div class="col-md-6 col-lg-4 item">
+      <div class="box">
+          <img class="rounded-circle" [src] = 'it.imageUrl'>
+          <h3 class="name">{{it.name}}</h3>
+          <p class="title">{{it.title}}</p>
+          <p class="description">{{it.description}}</p>
+          <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+      </div>
+    </div>
+  </ng-template> 
+  <!-- <ng-template carouselSlide>
+    <div class="col-md-6 col-lg-4 item">
+      <div class="box"><img class="rounded-circle" src="../../assets/per.jpg">
+          <h3 class="name">Ben Johnson</h3>
+          <p class="title">Musician</p>
+          <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+          <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+      </div>
+    </div>
+  </ng-template>  
+  <ng-template carouselSlide>
+    <div class="col-md-6 col-lg-4 item">
+      <div class="box"><img class="rounded-circle" src="../../assets/per2.jpg">
+          <h3 class="name">Kevin Harrison</h3>
+          <p class="title">Artist</p>
+          <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+          <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+      </div>
+    </div>
+  </ng-template>  
+  <ng-template carouselSlide>
+    <div class="col-md-6 col-lg-4 item">
+      <div class="box"><img class="rounded-circle" src="../../assets/per3.jpg">
+          <h3 class="name">Lara Stacy</h3>
+          <p class="title">Actress</p>
+          <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+          <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+      </div>
+    </div>
+  </ng-template>   -->
+</owl-carousel-o>
+</div>
+</div>
+<!-- <div>Some tags after</div> -->
